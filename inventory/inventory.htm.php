@@ -1,35 +1,56 @@
-<div class="twoBlock_main ">
-    <div class="left-block ">
+<!DOCTYPE html>
+<html>
 
-        <div class="magazin-wrapper">
-            <div class="magazin-wrapper-item">
-                <button class="btn-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_8697_250239)">
-                            <path d="M12.0028 22.9119C13.4357 22.9137 14.8548 22.6323 16.1786 22.084C17.5024 21.5356 18.7048 20.7311 19.7167 19.7167C20.7311 18.7048 21.5356 17.5024 22.084 16.1786C22.6323 14.8548 22.9137 13.4357 22.9119 12.0028C22.9137 10.57 22.6323 9.1509 22.084 7.82712C21.5356 6.50333 20.7311 5.30094 19.7167 4.28903C18.7048 3.27457 17.5024 2.47006 16.1786 1.92171C14.8548 1.37336 13.4357 1.09199 12.0028 1.09376C10.57 1.09199 9.1509 1.37336 7.82712 1.92171C6.50333 2.47006 5.30094 3.27457 4.28903 4.28903C3.27457 5.30094 2.47006 6.50333 1.92171 7.82712C1.37336 9.1509 1.09199 10.57 1.09376 12.0028C1.09199 13.4357 1.37336 14.8548 1.92171 16.1786C2.47006 17.5024 3.27457 18.7048 4.28903 19.7167C5.30094 20.7311 6.50333 21.5356 7.82712 22.084C9.1509 22.6323 10.57 22.9137 12.0028 22.9119Z" stroke="#AAAAAA" stroke-width="2" stroke-linejoin="round" />
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0043 4.90625C12.3659 4.90625 12.7128 5.04992 12.9685 5.30565C13.2242 5.56138 13.3679 5.90823 13.3679 6.26989C13.3679 6.63155 13.2242 6.97839 12.9685 7.23412C12.7128 7.48985 12.3659 7.63352 12.0043 7.63352C11.6426 7.63352 11.2958 7.48985 11.04 7.23412C10.7843 6.97839 10.6406 6.63155 10.6406 6.26989C10.6406 5.90823 10.7843 5.56138 11.04 5.30565C11.2958 5.04992 11.6426 4.90625 12.0043 4.90625Z" fill="#AAAAAA" />
-                            <path d="M12.2763 17.4567V9.82031H11.1854M10.3672 17.4567H14.1854" stroke="#AAAAAA" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_8697_250239">
-                                <rect width="24" height="24" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                    Справ.
-                </button>
-                <input type="text" class="search" placeholder="Найти запись">
+<head>
+    <meta charset="utf-8" />
+    <title>Цветы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <div class="btn-open_filter">
-                    <img src="/-images/arrow_down.svg" alt="">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../circles.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/c61f48834a.js"></script>
+
+</head>
+
+<body>
+
+    <div class="twoBlock_main ">
+        <div class="left-block ">
+
+            <div class="magazin-wrapper">
+                <div class="magazin-wrapper-item">
+                    <button class="btn-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_8697_250239)">
+                                <path d="M12.0028 22.9119C13.4357 22.9137 14.8548 22.6323 16.1786 22.084C17.5024 21.5356 18.7048 20.7311 19.7167 19.7167C20.7311 18.7048 21.5356 17.5024 22.084 16.1786C22.6323 14.8548 22.9137 13.4357 22.9119 12.0028C22.9137 10.57 22.6323 9.1509 22.084 7.82712C21.5356 6.50333 20.7311 5.30094 19.7167 4.28903C18.7048 3.27457 17.5024 2.47006 16.1786 1.92171C14.8548 1.37336 13.4357 1.09199 12.0028 1.09376C10.57 1.09199 9.1509 1.37336 7.82712 1.92171C6.50333 2.47006 5.30094 3.27457 4.28903 4.28903C3.27457 5.30094 2.47006 6.50333 1.92171 7.82712C1.37336 9.1509 1.09199 10.57 1.09376 12.0028C1.09199 13.4357 1.37336 14.8548 1.92171 16.1786C2.47006 17.5024 3.27457 18.7048 4.28903 19.7167C5.30094 20.7311 6.50333 21.5356 7.82712 22.084C9.1509 22.6323 10.57 22.9137 12.0028 22.9119Z" stroke="#AAAAAA" stroke-width="2" stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0043 4.90625C12.3659 4.90625 12.7128 5.04992 12.9685 5.30565C13.2242 5.56138 13.3679 5.90823 13.3679 6.26989C13.3679 6.63155 13.2242 6.97839 12.9685 7.23412C12.7128 7.48985 12.3659 7.63352 12.0043 7.63352C11.6426 7.63352 11.2958 7.48985 11.04 7.23412C10.7843 6.97839 10.6406 6.63155 10.6406 6.26989C10.6406 5.90823 10.7843 5.56138 11.04 5.30565C11.2958 5.04992 11.6426 4.90625 12.0043 4.90625Z" fill="#AAAAAA" />
+                                <path d="M12.2763 17.4567V9.82031H11.1854M10.3672 17.4567H14.1854" stroke="#AAAAAA" stroke-width="2.18182" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_8697_250239">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Справ.
+                    </button>
+                    <input type="text" class="search" placeholder="Найти запись">
+
+                    <div class="btn-open_filter">
+                        <img src="/-images/arrow_down.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="magazin-wrapper-item">
+                    <button class="page_header-btn green">создать запись</button>
                 </div>
             </div>
-
-            <div class="magazin-wrapper-item">
-                <button class="page_header-btn green">создать запись</button>
-            </div>
-        </div>
-        <!-- <div class="moving-header__visibleInput">
+            <!-- <div class="moving-header__visibleInput">
 
             <div class="moving__visibleInput-item">
                 <input type="" name="" value="Период">
@@ -92,285 +113,288 @@
         </div> -->
 
 
-        <div class="table-content inventory" style="margin-top: 20px;">
-            <div class="table-content__head">
-                <div class="table_item table_item_width_50">Наименование / дата</div>
-                <div class="table_item table_item_width_30">Тип</div>
-                <div class="table_item table_item_width_15">Статус</div>
-                <div class="table_item table_item_width_5" style="text-align: end;">Расх.</div>
+            <div class="table-content inventory" style="margin-top: 20px;">
+                <div class="table-content__head">
+                    <div class="table_item table_item_width_50">Наименование / дата</div>
+                    <div class="table_item table_item_width_30">Тип</div>
+                    <div class="table_item table_item_width_15">Статус</div>
+                    <div class="table_item table_item_width_5" style="text-align: end;">Расх.</div>
+                </div>
+
+                <div class="table-content__list">
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Создано
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item gray">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Сохранено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item green">
+
+                                Проведено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Создано
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item gray">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Сохранено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item green">
+
+                                Проведено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Создано
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item gray">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Сохранено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item green">
+
+                                Проведено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Создано
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item gray">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                                Сохранено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="table-content__row">
+                        <div class="table_item table_item_width_50">
+                            Инвентаризация №20 от 01.12.2025
+                            <p>
+                                Московский тракт 112/12
+                            </p>
+                        </div>
+                        <div class="table_item table_item_width_25">Пересчет товаров</div>
+                        <div class="table_item table_item_width_20">
+                            <div class="status_inventory-table_item green">
+
+                                Проведено
+                            </div>
+                        </div>
+                        <div class="table_item table_item_width_5">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
 
-            <div class="table-content__list">
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Создано
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item gray">
-                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Сохранено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item green">
-
-                            Проведено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Создано
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item gray">
-                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Сохранено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item green">
-
-                            Проведено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Создано
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item gray">
-                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Сохранено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item green">
-
-                            Проведено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.5 1H4.02734C3.46449 1 3.01252 1.46432 3.0277 2.02696L3.44576 17.527C3.46037 18.0685 3.90362 18.5 4.4454 18.5H16.5576C17.1099 18.5 17.5576 18.0523 17.5576 17.5V8M11.5 1L17.5576 8M11.5 1V7C11.5 7.55228 11.9477 8 12.5 8H17.5576" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Создано
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item gray">
-                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 12.5C24 11.1327 23.7614 9.82116 23.3235 8.60471M12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24C16.3228 24 19.7099 22.1347 21.8009 19.2647C22.4361 18.3929 22.9517 17.4284 23.3235 16.3953M12.5 6.41176V12.5L18.5882 17.2353M16.5588 1.73675C18.0956 2.31657 19.4756 3.21609 20.6176 4.35422" stroke="#434343" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Сохранено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="table-content__row">
-                    <div class="table_item table_item_width_50">
-                        Инвентаризация №20 от 01.12.2025
-                        <p>
-                            Московский тракт 112/12
-                        </p>
-                    </div>
-                    <div class="table_item table_item_width_25">Пересчет товаров</div>
-                    <div class="table_item table_item_width_20">
-                        <div class="status_inventory-table_item green">
-
-                            Проведено
-                        </div>
-                    </div>
-                    <div class="table_item table_item_width_5">
-                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.25 1.25L8.58333 14.25L1.25 6.72368" stroke="#30BD57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
-
-
-            </div>
 
         </div>
-
-
-    </div>
-    <div class="instanceBlock">
-        <div class="rBlock_inctance">
-            <div class="orderDescr__empty flex">
-                Выберите запись <br>
-                чтобы увидеть детали
+        <div class="instanceBlock">
+            <div class="rBlock_inctance">
+                <div class="orderDescr__empty flex">
+                    Выберите запись <br>
+                    чтобы увидеть детали
+                </div>
             </div>
         </div>
     </div>
-</div>
+</body>
+
+</html>
